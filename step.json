@@ -1,0 +1,356 @@
+{
+"questions": [
+    {
+    "id": 1,
+    "level": "Başlangıç",
+    "text": "Değişken (Variable) nedir?",
+    "options": ["HTML etiketi","Veri saklama alanı","Matematiksel komut","Tarayıcı hızı"],
+    "answer": 1
+    },
+    {
+    "id": 2,
+    "level": "Başlangıç",
+    "text": "'const' ile tanımlanan bir değişkenin özelliği nedir?",
+    "options": ["Sadece sayı saklar","Değeri değiştirilebilir","Değeri değiştirilemez","Ekranı temizler"],
+    "answer": 2
+    },
+    {
+    "id": 3,
+    "level": "Başlangıç",
+    "text": "Hangisi bir 'Boolean' veri tipidir?",
+    "options": ["'Merhaba'","100","true / false","[1, 2, 3]"],
+    "answer": 2
+    },
+    {
+    "id": 4,
+    "level": "Başlangıç",
+    "text": "JavaScript'te 'if' yapısı ne için kullanılır?",
+    "options": ["Döngü kurmak için","Koşul kontrolü için","Veri silmek için","Sayfa yenilemek için"],
+    "answer": 1
+    },
+    {
+    "id": 5,
+    "level": "Başlangıç",
+    "text": "Sonsuz döngü neden oluşur?",
+    "options": ["İnternet koptuğu için","Bellek dolduğu için","Bitiş şartı sağlanmadığı için","Kod çok uzun olduğu için"
+    ],
+    "answer": 2
+    },
+    {
+    "id": 6,
+    "level": "Başlangıç",
+    "text": "Fonksiyonların temel amacı nedir?",
+    "options":  ["Bilgisayarı soğutmak","Kodun tekrar kullanılabilirliği","Sadece renkli yazı yazmak","Dosya boyutunu büyütmek"],
+    "answer": 1
+    },
+    {
+    "id": 7,
+    "level": "Başlangıç",
+    "text": "Dizilerde (Array) sayma kaçtan başlar?",
+    "options": ["1","0","-1","10"],
+    "answer": 1
+    },
+    {
+    "id": 8,
+    "level": "Başlangıç",
+    "text": "'===' operatörü neyi kontrol eder?",
+    "options": ["Sadece değeri","Hem değer hem veri tipini","Sadece veri tipini","Dosya ismini"],
+    "answer": 1
+    },
+    {
+    "id": 9,
+    "level": "Başlangıç",
+    "text": "'undefined' ne anlama gelir?",
+    "options": ["Hatalı kod", "Değeri 0 olan değişken","Henüz değer atanmamış değişken","Gizli değişken"],
+    "answer": 2
+    },
+    {
+    "id": 10,
+    "level": "Başlangıç",
+    "text": "'return' komutu fonksiyonda ne yapar?",
+    "options": [ "Sayfayı yeniler","Sonucu dışarı gönderir","Fonksiyonu siler","Hata verir" ],
+        "answer": 1
+    },
+    { 
+    "id": 11, 
+    "level": "Orta", 
+    "text": "DOM'un açılımı nedir?", 
+    "options": 
+    ["Data Object Model", "Document Object Model", "Digital Office Mode", "Desktop Object Management"], 
+    "answer": 1 
+    },
+    { 
+        "id": 12, 
+        "level": "Orta", 
+        "text": "Bir elementin ID'si ile seçilmesi için hangisi kullanılır?", 
+        "options": ["querySelector", "getElementById", "getElementByClass", "A ve B seçenekleri"], 
+        "answer": 1
+    },
+    { 
+        "id": 13, 
+        "level": "Orta", 
+        "text": "Tıklama olayını dinlemek için hangi metod kullanılır?", 
+        "options": ["onClick", "listenEvent", "addEventListener", "touchStart"], 
+        "answer": 2 
+    },
+    { 
+        "id": 14, 
+        "level": "Orta", 
+        "text": "innerHTML ile innerText arasındaki fark nedir?", 
+        "options": ["Fark yoktur", "innerHTML sadece metin, diğeri HTML alır", "innerHTML HTML etiketlerini işler, innerText sadece düz metin alır", "innerText daha hızlıdır"], 
+        "answer": 2 
+    },
+    { 
+        "id": 15, 
+        "level": "Orta", 
+        "text": "JS ile yeni bir HTML elemanı nasıl oluşturulur?", 
+        "options": ["newElement()", "makeElement()", "createElement()", "appendChild()"], 
+        "answer": 2 
+    },
+    { 
+        "id": 16, 
+        "level": "Orta", 
+        "text": "Olay Yayılması (Event Bubbling) nedir?",
+        "options": ["Hataların havaya uçması", "Olayın en içteki elemandan dışa doğru yayılması", "Sayfanın donması", "Döngülerin hızlanması"], 
+        "answer": 1 
+    },
+    { 
+        "id": 17, 
+        "level": "Orta", 
+        "text": "Formun sayfa yenilemesini durduran komut hangisidir?", 
+        "options": 
+        ["stop()", "halt()", "preventDefault()", "break()"], 
+        "answer": 2 
+    },
+    { 
+        "id": 18, 
+        "level": "Orta", 
+        "text": "Sadece bir kez çalışacak zamanlayıcı hangisidir?", 
+        "options": ["setInterval", "setTimeout", "setPeriod", "wait()"], 
+        "answer": 1 
+    },
+    { 
+        "id": 19, 
+        "level": "Orta", 
+        "text": "CSS class'ı eklemek için kullanılan doğru yöntem hangisidir?", 
+        "options": ["addStyle()", "classList.add()", "setClass()", "style.new()"], 
+        "answer": 1 
+    },
+    { 
+        "id": 20, 
+        "level": "Orta", 
+        "text": "Elemanı başka bir elemanın içine ekleyen metod hangisidir?", 
+        "options": ["push()", "insert()", "appendChild()", "attach()"], 
+        "answer": 2 
+    },
+    { 
+        "id": 21, 
+        "level": "İleri", 
+        "text": "JSON formatında anahtar kelimeler nasıl yazılmalıdır?", 
+        "options": ["Tek tırnakla", "Tırnaksız", "Çift tırnakla", "Parantez içinde"], 
+        "answer": 2 
+    },
+    { 
+        "id": 22, 
+        "level": "İleri", 
+        "text": "JavaScript'te 'this' genellikle neyi temsil eder?", 
+        "options": ["Dışarıdaki fonksiyonu", "İçinde bulunulan objeyi veya kapsamı", "Tarayıcıyı", "Window nesnesini"], 
+        "answer": 1 
+    },
+    { 
+        "id": 23, 
+        "level": "İleri", 
+        "text": "Ok Fonksiyonu (Arrow Function) gösterimi hangisidir?", 
+        "options": ["func -> {}", "=>", "==>", "function:"], 
+        "answer": 1 
+    },
+    { 
+        "id": 24, 
+        "level": "İleri", 
+        "text": "Dizideki elemanları filtrelemek için hangisi kullanılır?", 
+        "options": ["map", "forEach", "filter", "reduce"], 
+        "answer": 2 
+    },
+    { 
+        "id": 25, 
+        "level": "İleri", 
+        "text": "Template Literals hangi karakterle kullanılır?", 
+        "options": ["'", "\"", "` (Backtick)", "/"], 
+        "answer": 2 
+    },
+    { 
+        "id": 26, 
+        "level": "İleri", 
+        "text": "Hata yönetimi için hangi blok kullanılır?",
+        "options": ["if-else", "try-catch", "do-while", "wait-stop"], 
+        "answer": 1 
+    },
+    { 
+        "id": 27, 
+        "level": "İleri", 
+        "text": "Dizi elemanlarını tek bir değere (toplam gibi) indirgeyen metod hangisidir?", 
+        "options": ["reduce", "shrink", "sum", "join"], 
+        "answer": 0 
+    },
+    { 
+        "id": 28, 
+        "level": "İleri", 
+        "text": "Bir objeden veriyi hızlıca çekme (Destructuring) hangisidir?", 
+        "options": ["const {name} = user", "const name = user.name", "A ve B doğru", "Hiçbiri"], 
+        "answer": 2 
+    },
+    { 
+        "id": 29, 
+        "level": "İleri", 
+        "text": "JS'de 'Class' tanımlarken anahtar kelime hangisidir?", 
+        "options": ["new Class", "struct", "class", "object"], 
+        "answer": 2 
+    },
+    { 
+        "id": 30,
+        "level": "İleri", 
+        "text": "Modüler kodda dışarıya veri gönderme komutu hangisidir?", 
+        "options": ["send", "export", "give", "share"], 
+        "answer": 1 
+    },
+    { 
+        "id": 31, 
+        "level": "Uzman", 
+        "text": "Fetch API ne döndürür?", 
+        "options": ["String", "Number", "Promise", "Boolean"], 
+        "answer": 2 
+    },
+    { 
+        "id": 32, 
+        "level": "Uzman", 
+        "text": "Asenkron fonksiyonlarda beklemek için ne kullanılır?", 
+        "options": ["wait", "pause", "await", "stop"], 
+        "answer": 2 
+    },
+    { 
+        "id": 33, 
+        "level": "Uzman", 
+        "text": "HTTP 404 kodu ne anlama gelir?", 
+        "options": ["Başarılı", "Sunucu hatası", "Bulunamadı", "Giriş yasak"], 
+        "answer": 2 
+    },
+    { 
+        "id": 34, 
+        "level": "Uzman", 
+        "text": "Tarayıcı kapansa bile silinmeyen depolama hangisidir?", 
+        "options": ["SessionStorage", "LocalStorage", "Cookie", "Memory"], 
+        "answer": 1 
+    },
+    { 
+        "id": 35, 
+        "level": "Uzman", 
+        "text": "Callback Hell'den kurtulmak için ne geliştirilmiştir?",
+        "options": ["Daha çok if", "Promise ve Async/Await", "Döngüler", "HTML"], 
+        "answer": 1 
+    },
+    { 
+        "id": 36, 
+        "level": "Uzman", 
+        "text": "Kendi kendini çağıran fonksiyonlara ne denir?", 
+        "options": ["Selfish", "Recursive", "Repeat", "Auto"], 
+        "answer": 1 
+    },
+    { 
+        "id": 37, 
+        "level": "Uzman", 
+        "text": "DRY prensibi neyi savunur?", 
+        "options": ["Hızlı kod yazmayı", "Kod tekrarından kaçınmayı", "Bol yorum yazmayı", "Sadece CSS kullanmayı"], 
+        "answer": 1 
+    },
+    { 
+        "id": 38, 
+        "level": "Uzman", 
+        "text": "API nedir?", 
+        "options": ["Uygulama Arayüzü", "İşlemci hızı", "Ekran çözünürlüğü", "Klavye dili"], 
+        "answer": 0 
+    },
+    { 
+        "id": 39, 
+        "level": "Uzman", 
+        "text": "Big O Notation neyi ölçer?", 
+        "options": ["Dosya boyutunu", "Algoritma karmaşıklığını", "Satır sayısını", "Değişken ismini"], 
+        "answer": 1 
+    },
+    { 
+        "id": 40, 
+        "level": "Uzman", 
+        "text": "State (Durum) yönetimi neden önemlidir?", 
+        "options": ["Renkler için", "Verinin güncelliğini takip etmek için", "İnterneti hızlandırır", "Gereksizdir"], 
+        "answer": 1 
+    },
+    { 
+        "id": 41, 
+        "level": "Usta", 
+        "text": "Hangisi bir 'Refactoring' işlemidir?", 
+        "options": ["Yeni özellik eklemek", "Kodu silmek", "Kodun işlevini bozmadan yapısını iyileştirmek", "Sadece tasarımı değiştirmek"], 
+        "answer": 2 
+    },
+    { 
+        "id": 42, 
+        "level": "Usta", 
+        "text": "Promise reddedildiğinde hangi metod çalışır?", 
+        "options": ["then", "catch", "finally", "stop"], 
+        "answer": 1 
+    },
+    { 
+        "id": 43, 
+        "level": "Usta", 
+        "text": "JS tek iş parçacıklı (Single Thread) mıdır?",
+        "options": ["Evet", "Hayır", "Bazen", "Sadece node.js'de"], 
+        "answer": 0 
+    },
+    { 
+        "id": 44, 
+        "level": "Usta", 
+        "text": "Debouncing ne için kullanılır?", 
+        "options": ["Hız artırmak", "Sık tekrarlanan olayları sınırlamak", "Veri silmek", "Döngü kurmak"], 
+        "answer": 1 
+    },
+    { 
+        "id": 45, 
+        "level": "Usta", 
+        "text": "Virtual DOM hangi kütüphane ile popüler olmuştur?", 
+        "options": ["jQuery", "React", "Angular", "Bootstrap"], 
+        "answer": 1 
+    },
+    { 
+        "id": 46, 
+        "level": "Usta", "text": "Hoisting nedir?", 
+        "options": ["Dosya yükleme", "Değişkenlerin yukarı taşınması", "Sayfa yenileme", "Hata silme"], 
+        "answer": 1 
+    },
+    { 
+        "id": 47, 
+        "level": "Usta", 
+        "text": "Global scope nedir?", 
+        "options": ["Her yerden erişilebilen alan", "Sadece fonksiyon içi", "Sadece döngü içi", "Kapalı alan"], 
+        "answer": 0 
+    },
+    { 
+        "id": 48, 
+        "level": "Usta", 
+        "text": "Hangisi bir temiz kod kuralıdır?", 
+        "options": ["Anlamlı isimlendirme", "Karmaşık yapılar", "Yorumsuz kod", "Tek satırda her şey"], 
+        "answer": 0 
+    },
+    { 
+        "id": 49, 
+        "level": "Usta", 
+        "text": "Semantik HTML neden önemlidir?", 
+        "options": ["Güzellik için", "Erişilebilirlik ve SEO için", "Hız için", "Boyut için"], 
+        "answer": 1 
+    },
+    { 
+        "id": 50, 
+        "level": "Usta", 
+        "text": "Yazılımda 'Bug' ne demektir?", 
+        "options": ["Hızlı kod", "Hata/Kusur", "Yeni özellik", "Dosya tipi"], 
+        "answer": 1 
+    }
+]
+}

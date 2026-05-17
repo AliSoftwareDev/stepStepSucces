@@ -1,0 +1,257 @@
+:root {
+    --bg-light: #f8fafc;        
+    --completed: #10b981;     
+    --active: #f59e0b;          
+    --passive: #e2e8f0;         
+    --text-main: #0f172a;       
+    --text-muted: #64748b;      
+    --primary-blue: #3b82f6;    
+    --danger-red: #dc2626;     
+    --control-bg: #475569;      
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-light);
+    color: var(--text-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    width: 100%;
+    max-width: 1100px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.game-header {
+    text-align: center;
+    border-bottom: 2px solid #f1f5f9;
+    padding-bottom: 15px;
+}
+
+.game-header h1 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+#status-display {
+    margin-top: 5px;
+    color: var(--text-muted);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#current-step-num {
+    font-weight: 700;
+    color: var(--text-main);
+}
+
+#road-container {
+    background: #fdfdfd;
+    border: 1px solid #f1f5f9;
+    border-radius: 12px;
+    padding: 30px;
+    overflow-x: auto; 
+}
+
+#road {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 800px; 
+}
+
+.road-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+}
+.road-row.reverse {
+    flex-direction: row-reverse;
+}
+
+
+.circle {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    user-select: none;
+}
+
+
+.circle.pasif {
+    background-color: var(--passive);
+    color: #94a3b8;
+    border: 2px solid transparent;
+}
+
+
+.circle.active {
+    background-color: var(--active);
+    color: white;
+    box-shadow: 0 0 20px rgba(245, 158, 11, 0.6);
+    transform: scale(1.15);
+    font-weight: 700;
+    z-index: 10;
+}
+
+.circle.completed {
+    background-color: var(--completed);
+    color: white;
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.25);
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-top: 2px solid #f1f5f9;
+    padding-top: 25px;
+}
+
+.btn-action {
+    padding: 14px 28px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+
+.btn-action[data-action="start"] {
+    background-color: var(--primary-blue);
+    color: white;
+}
+
+.btn-action[data-action="next"] {
+    background-color: var(--control-bg);
+    color: white;
+}
+
+.btn-action[data-action="finish"] {
+    background-color: var(--danger-red);
+    color: white;
+}
+
+
+.btn-action:hover:not(:disabled) {
+    opacity: 0.95;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+.btn-action:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+
+.btn-action:disabled {
+    background-color: var(--passive) !important;
+    color: #94a3b8 !important;
+    cursor: not-allowed;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+
+#question-area {
+    margin-top: 20px;
+    background: #f1f5f9;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px dashed #cbd5e1;
+}
+
+.question-card h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+#options-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.option-btn {
+    padding: 12px;
+    background: white;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.option-btn:hover {
+    border-color: #3b82f6;
+    background-color: #eff6ff;
+}
+
+/* Şık Seçildiğinde Devreye Giren Sınıf */
+.option-btn.selected {
+    background-color: #3b82f6 !important;
+    color: white !important;
+    border-color: #3b82f6 !important;
+    font-weight: 600;
+}
+
+.hidden {
+    display: none !important;
+}
+.road-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    padding: 0 10px;
+}
+
+.road-line {
+    flex-grow: 1;       
+    height: 4px;        
+    margin: 0 8px;      
+    border-radius: 2px;
+    transition: background-color 0.4s ease; 
+}
+
+
+.road-line.line-pasif {
+    background-color: gray; 
+}
+
+
+.road-line.line-active {
+    background-color: #3b82f6; 
+    box-shadow: 0 0 8px rgba(59, 130, 246, 0.4); 
+}

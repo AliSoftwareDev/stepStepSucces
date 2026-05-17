@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adım Adım Başarı</title>
+</head>
+<body>
+    <div class="container">
+        <header class="game-header">
+            <h1>Adım Adım Başarı</h1>
+            <div id="status-display">Şu anki Adım: <span id="current-step-num">Başlamadı</span></div>
+        </header>
+        
+        <main id="road-container">
+            <div id="road"></div>
+        </main>
+
+    <section id="question-area" class="hidden">
+    <div id="timer-display">Kalan Süre: <span id="time-left">15</span> saniye</div>
+    
+    <div class="question-card">
+        <h3 id="question-text">Soru buraya gelecek...</h3>
+        <div id="options-container"></div>
+    </div>
+        </section>
+
+        <footer class="controls">
+            <button class="btn-action" data-action="next">Sonraki Adıma Geç</button>
+            <button class="btn-action" data-action="start">Başlat</button>
+            <button class="btn-action" data-action="finish">Bitir</button>
+        </footer>        
+    </div>
+
+    <script src="pass.js"></script>
+</body>
+</html>
