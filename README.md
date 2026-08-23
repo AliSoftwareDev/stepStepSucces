@@ -33,13 +33,13 @@ Daireler arasındaki yatay çizgiler saf CSS yerine JavaScript döngüsü içind
 
 ---
 
+![Adım Adım Başarı Önizleme](https://github.com/user-attachments/assets/805d5574-88bc-41e4-8b4c-16eac0c98297)
+
 ## 📂 Proje Yapısı
 
-```text
-├── index.html          # Semantik HTML iskeleti
+```text"    
 ├── style.css           # Grid/Flexbox düzeni ve animasyonlar
 ├── pass.js             # Oyun motoru, asenkron süreçler ve algoritma mantığı
 └── step.json           # Seviye ve soru verilerini tutan JSON havuzu
 
 
-![Adım Adım Başarı Önizleme](https://github.com/user-attachments/assets/805d5574-88bc-41e4-8b4c-16eac0c98297)
