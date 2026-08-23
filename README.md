@@ -40,3 +40,6 @@ Daireler arasındaki yatay çizgiler saf CSS yerine JavaScript döngüsü içind
 ├── style.css           # Grid/Flexbox düzeni ve animasyonlar
 ├── pass.js             # Oyun motoru, asenkron süreçler ve algoritma mantığı
 └── step.json           # Seviye ve soru verilerini tutan JSON havuzu
+
+
+<img width="1918" height="1078" alt="Adım Adım Başarı - Google Chrome 2026-08-23 at 1 19 19 PM" src="https://github.com/user-attachments/assets/805d5574-88bc-41e4-8b4c-16eac0c98297" />
