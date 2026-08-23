@@ -33,7 +33,8 @@ Daireler arasındaki yatay çizgiler saf CSS yerine JavaScript döngüsü içind
 
 ---
 
-![Adım Adım Başarı Önizleme](https://github.com/user-attachments/assets/805d5574-88bc-41e4-8b4c-16eac0c98297)
+<img width="1268" height="537" alt="Adım Adım Başarı - Google Chrome 2026-08-23 at 1 19 19 PM (1)" src="https://github.com/user-attachments/assets/1247695f-87ef-4db1-a239-d7d519a3cf58" />
+
 
 ## 📂 Proje Yapısı
 
